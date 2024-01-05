@@ -82,6 +82,11 @@ prop_replace /home/ubuntu/nifi/conf/nifi.properties "nifi.zookeeper.connect.stri
 /home/ubuntu/nifi/bin/nifi.sh restart
 
 ```
+### This script will perform following actions on nifi instances
+* Installing and configuring Java17.
+* Downloading and unziping nifi binaries.
+* Downloading and unziping nifi toolkit binaries.
+* Updating nifi properties file with the values required to form a nifi cluster.
 
 ```
 
